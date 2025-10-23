@@ -99,8 +99,8 @@ x = [1, 2, 3, 4, 5]
 y1 = [10, 12, 14, 16, 18]
 y2 = [5, 7, 9, 11, 13]
 y3 = [2, 4, 6, 8, 10]
-plt.fill_between(x, y1, color='blue')
-plt.fill_between(x, y2, color='green')
+plt.fill_between(x, y1, color='red')
+plt.fill_between(x, y2, color='black')
 plt.plot(x, y1, color='red')
 plt.plot(x, y2, color='black')
 plt.legend(['y1','y2'])
@@ -116,7 +116,7 @@ plt.show()
 ```py
 height = [10, 24, 36, 40, 5]
 names = ['one', 'two', 'three', 'four', 'five']
-c1=['red', 'green'] 
+c1=['red', 'black'] 
 c2=['b', 'g']
 plt.bar (names, height, width=0.8, color=c1)
 plt.xlabel('x - axis')
